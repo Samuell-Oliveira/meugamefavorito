@@ -17,7 +17,7 @@ body, input, textarea {
 }
 
 header {
-    padding: 16px 0;
+    padding: 16px auto;
     background-color: black;
     color: #ecf0f1;
     position: sticky;
@@ -143,3 +143,9 @@ footer {
     display: absolute;
 }
 
+.store-front {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Garante que a imagem seja exibida como bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
