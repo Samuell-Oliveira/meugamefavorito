@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const btnConcluir = document.getElementById("btnConcluir");
     const video = document.getElementById("background-video")
 
+    video.loop = true;
+
     function verificarPreenchimento() {
         if (emailInput.value.trim() !== "" && senhaInput.value.trim() !== "") {
             btnConcluir.removeAttribute("disabled");
@@ -14,5 +16,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
     emailInput.addEventListener("input", verificarPreenchimento);
     senhaInput.addEventListener("input", verificarPreenchimento);
-    video.loop = true;
 });
