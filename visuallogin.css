@@ -80,20 +80,8 @@ button:hover {
     .inputs, button {
         width: auto;
     }
+
+    video {
+        display: fixed;
+    }
 }
-
-#sessão{
-    display: flex;
-    background: radial-gradient(#504d5a00,rgb(2, 1, 14));
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    position: relative;
-}
-
-video {
-    animation-play-state: running;
-}
-
-
-/* 768 */
