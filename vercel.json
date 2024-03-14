@@ -2,7 +2,7 @@
     "rewrites": [
       {
         "source": "/(.*)",
-        "destination": "/video-fundo.mp4/"
+        "destination": "/video-fundo.webm"
       }
     ]
   }
