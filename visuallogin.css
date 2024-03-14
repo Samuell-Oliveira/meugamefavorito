@@ -74,6 +74,7 @@ button:hover {
         display: fixed;
         width: auto;
         padding: 30px;
+        height: auto;
     }
 
     h1 {
