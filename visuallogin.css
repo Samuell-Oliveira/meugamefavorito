@@ -65,3 +65,20 @@ button {
 button:hover {
     background-color: rgba(234, 226, 236, 0.39);
 }
+
+@media only screen and (max-width: 600px) {
+    section {
+        display: flex;
+        width: auto;
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .inputs, button {
+        width: auto;
+    }
+}
+/* 768 */
