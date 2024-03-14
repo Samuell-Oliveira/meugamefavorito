@@ -83,4 +83,8 @@ button:hover {
     .inputs, button {
         width: auto;
     }
+
+    img {
+        margin: 0 auto;
+    }
 }
