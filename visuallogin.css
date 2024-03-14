@@ -91,5 +91,9 @@ button:hover {
     position: relative;
 }
 
+video {
+    animation-play-state: running;
+}
+
 
 /* 768 */
