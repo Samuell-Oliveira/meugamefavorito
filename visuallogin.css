@@ -68,7 +68,7 @@ button:hover {
 
 @media only screen and (max-width: 1300px) {
     *{
-        display: fixed;
+        height: 100vh;
     }
     section {
         display: fixed;
