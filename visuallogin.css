@@ -67,8 +67,8 @@ button:hover {
 }
 
 @media only screen and (max-width: 1300px) {
-    *{
-        height: 100vh;
+    #background-video{
+        height: 100%;
     }
     section {
         display: fixed;
