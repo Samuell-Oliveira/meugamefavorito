@@ -14,6 +14,3 @@ document.addEventListener("DOMContentLoaded", function() {
     emailInput.addEventListener("input", verificarPreenchimento);
     senhaInput.addEventListener("input", verificarPreenchimento);
 });
-window.addEventListener('resize', function() {
-    document.getElementById('sessão').style.height = window.innerHeight + 'px';
-});

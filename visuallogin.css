@@ -101,6 +101,7 @@ button:hover {
     }
 
     img {
+        position: fixed;
         margin: 0 auto;
     }
 }
@@ -130,7 +131,6 @@ html, body {
 
 #sessão {
     position: fixed;
-    margin: 0 auto;
     top: 0;
     left: 0;
     width: 100%;
