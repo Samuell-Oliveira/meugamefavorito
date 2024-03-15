@@ -104,3 +104,35 @@ button:hover {
         margin: 0 auto;
     }
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#background-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Para evitar que a imagem de fundo cause rolagem */
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%; /* Modificação aqui */
+    object-fit: cover;
+    z-index: -1;
+}
+
+#sessão {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    z-index: 1; /* Certifique-se de que o conteúdo esteja na frente da imagem de fundo */
+}
