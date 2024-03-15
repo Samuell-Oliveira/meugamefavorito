@@ -117,25 +117,3 @@ html, body {
     height: 100%;
     overflow: hidden; /* Para evitar que a imagem de fundo cause rolagem */
 }
-
-#background-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 100%; /* Modificação aqui */
-    object-fit: cover;
-    z-index: -1;
-}
-
-#sessão {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1; /* Certifique-se de que o conteúdo esteja na frente da imagem de fundo */
-}
