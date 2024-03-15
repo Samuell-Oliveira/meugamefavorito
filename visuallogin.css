@@ -129,10 +129,13 @@ html, body {
 }
 
 #sessão {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    position: relative;
     z-index: 1; /* Certifique-se de que o conteúdo esteja na frente da imagem de fundo */
 }
