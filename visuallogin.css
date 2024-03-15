@@ -99,6 +99,10 @@ button:hover {
         width: auto;
     }
 
+    button {
+        width: 120px;
+    }
+
     img {
         position: fixed;
         margin: 0 auto;
